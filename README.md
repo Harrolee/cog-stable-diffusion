@@ -1,13 +1,17 @@
 # Stable Diffusion v2 Cog model
 
-[![Replicate](https://replicate.com/stability-ai/stable-diffusion/badge)](https://replicate.com/stability-ai/stable-diffusion) 
+I deployed Sayak Paul's cartoonizer to Replicate. Read his [blog post](https://huggingface.co/blog/instruction-tuning-sd)
 
-This is an implementation of the [Diffusers Stable Diffusion v2.1](https://huggingface.co/stabilityai/stable-diffusion-2-1) as a Cog model. [Cog packages machine learning models as standard containers.](https://github.com/replicate/cog)
+# Use Locally
 
 First, download the pre-trained weights:
 
-    cog run script/download-weights 
+    cog run script/download-weights
 
 Then, you can run predictions:
 
     cog predict -i prompt="monkey scuba diving"
+
+## Apple Silion?
+
+replace 'cuda' with 'mps'

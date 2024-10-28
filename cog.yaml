@@ -3,12 +3,12 @@ build:
   cuda: "11.8"
   python_version: "3.11.1"
   python_packages:
-    - "diffusers==0.11.1"
-    - "torch==1.13.0"
+    - "diffusers==0.30.3"
+    - "torch==2.4.1"
     - "ftfy==6.1.1"
-    - "scipy==1.9.3"
-    - "transformers==4.25.1"
-    - "accelerate==0.15.0"
-    - "huggingface-hub==0.13.2"
+    - "scipy==1.14.1"
+    - "transformers==4.45.1"
+    - "accelerate==0.34.2"
+    - "huggingface-hub==0.25.1"
 
 predict: "predict.py:Predictor"
